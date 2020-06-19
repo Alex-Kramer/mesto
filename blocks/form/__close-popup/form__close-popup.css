@@ -1,0 +1,18 @@
+.form__close-popup{
+    position: absolute;
+    right: -45px;
+    top: -45px;
+    cursor: pointer;
+    transition: opacity .5s;
+  }
+  
+  .form__close-popup:hover{
+    opacity: .6;
+  }
+  
+  @media screen and (max-width: 640px){
+    .form__close-popup{
+      right: 0;
+      top: -48px;
+    }
+  }

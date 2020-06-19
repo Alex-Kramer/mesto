@@ -1,0 +1,23 @@
+@import url(./__admin/form__admin.css);
+@import url(./__close-popup/form__close-popup.css);
+@import url(./__conteiner/form__conteiner.css);
+@import url(./__input-conteiner/form__input-conteiner.css);
+@import url(./__name/form__name.css);
+@import url(./__description/form__description.css);
+@import url(./__submit/form__submit.css);
+@import url(./__title/form__title.css);
+
+.form{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+
