@@ -2,8 +2,15 @@
     position: absolute;
     right: -45px;
     top: -45px;
+    width: 40.7px;
+    height: 40.7px;
+    border: none;
+    background-image: url('../../../images/close-icon.svg');
+    background-size: cover;
+    background-color: transparent;
     cursor: pointer;
     transition: opacity .5s;
+    outline: none;
   }
   
   .form__close-popup:hover{

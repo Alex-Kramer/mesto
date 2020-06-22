@@ -3,9 +3,9 @@
   height: 24px;
   border: 2px solid #FFFFFF;
   background-color: transparent;
-  margin-top: 37px;
   background-image: url('../../../images/Vector-edit.svg');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   outline: none;
 }
 
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 640px){
     .profile__edit-button{
-      width: 24px;
-      height: 24px;
+      width: 18px;
+      height: 18px;
     }
   }
