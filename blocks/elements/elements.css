@@ -4,10 +4,9 @@
   grid-template-rows: repeat(2, 1fr);
   max-width: 1200px;
   margin: 0 auto;
-  /*border: 1px solid white;*/
   grid-column-gap: 18px;
   grid-row-gap: 21px;
-  padding: 51px 0 66px 0;
+  padding: 51px 0 0 0;
   justify-content: center;
 }
 
@@ -27,7 +26,6 @@
 @media screen and (max-width: 325px){
     .elements{  
       width: 88.1%;
-      /*margin: 36px 19px 0 19px;*/
       grid-row-gap: 20px;
       grid-column-gap: 0;
     }
